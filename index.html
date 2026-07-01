@@ -681,7 +681,7 @@ body.light-mode footer{background:rgba(255,255,255,0.5)}
   </div>
   <div class="hero-visual">
     <div class="hero-img-wrap">
-      <img id="profileImg" src="" alt="Jean Jacques Komhidi" loading="lazy">
+      <img src="https://raw.githubusercontent.com/jean-jacques-komhidi/jean-jacques-komhidi/main/profile.jpeg" alt="Jean Jacques Komhidi" loading="lazy">
     </div>
     <div class="hero-badge">
       <div class="hero-badge-dot"></div>
@@ -952,39 +952,6 @@ themeToggle.addEventListener('click', () => {
   themeToggle.textContent = isLight ? '☀️' : '🌙';
 });
 
-// PROFILE IMAGE LOADER
-const profileImg = document.getElementById('profileImg');
-const imageUrls = [
-  'https://raw.githubusercontent.com/jean-jacques-komhidi/jean-jacques-komhidi/main/profile.jpg',
-  'https://avatars.githubusercontent.com/u/138132937?v=4',
-  'https://github.com/jean-jacques-komhidi.png',
-];
-
-function loadProfileImage() {
-  let imageIndex = 0;
-  
-  const tryNextImage = () => {
-    if (imageIndex < imageUrls.length) {
-      const testImg = new Image();
-      testImg.onload = () => {
-        profileImg.src = imageUrls[imageIndex];
-        profileImg.style.opacity = '1';
-      };
-      testImg.onerror = () => {
-        imageIndex++;
-        tryNextImage();
-      };
-      testImg.src = imageUrls[imageIndex];
-    } else {
-      profileImg.style.backgroundColor = '#1a1a2e';
-    }
-  };
-  
-  tryNextImage();
-}
-
-loadProfileImage();
-
 // ANIMATE STATS ON SCROLL
 const animateStats = () => {
   const statNumbers = document.querySelectorAll('.stat-number');
@@ -1047,7 +1014,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // PARALLAX EFFECT ON MOUSE MOVE
 document.addEventListener('mousemove', (e) => {
   const heroImg = document.querySelector('.hero-img-wrap');
-  if (heroImg) {
+  if (heroImg && window.innerWidth > 1024) {
     const x = (window.innerWidth / 2 - e.clientX) / 50;
     const y = (window.innerHeight / 2 - e.clientY) / 50;
     heroImg.style.transform = `perspective(1000px) rotateY(${x}deg) rotateX(${y}deg)`;
