@@ -5,6 +5,7 @@
 ### Développeur & Analyste de Données | Master 2 UCAO Dakar
 
 [![GitHub](https://img.shields.io/badge/GitHub-jean--jacques--komhidi-181717?style=flat&logo=github)](https://github.com/jean-jacques-komhidi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-komhidi--jean--jacques-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/komhidi-jean-jacques-a13842280)
 [![Email](https://img.shields.io/badge/Email-jkomhidi2002@gmail.com-EA4335?style=flat&logo=gmail)](mailto:jkomhidi2002@gmail.com)
 [![Location](https://img.shields.io/badge/Localisation-Dakar%2C%20Sénégal-00B96B?style=flat&logo=googlemaps)](https://maps.google.com/?q=Dakar,Senegal)
 
@@ -185,6 +186,7 @@ Tableau de bord décisionnel Power BI pour le Project Management Office d'une en
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/komhidi-jean-jacques-a13842280)
 [![Email](https://img.shields.io/badge/jkomhidi2002@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jkomhidi2002@gmail.com)
 [![GitHub](https://img.shields.io/badge/jean--jacques--komhidi-181717?style=for-the-badge&logo=github)](https://github.com/jean-jacques-komhidi)
 
