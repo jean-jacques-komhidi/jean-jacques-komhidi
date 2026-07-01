@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Komhidi Jean Jacques
+# Komhidi Jean Jacques
 
 ### Développeur & Analyste de Données | Master 2 UCAO Dakar
 
@@ -15,17 +15,19 @@
 
 ---
 
-## 🙋 À propos de moi
+## À propos de moi
 
-Étudiant en **Master Informatique de Gestion** (option Développement et Analyse de Données) à l'UCAO Dakar, avec une double compétence en **développement logiciel** et **analyse de données**. Passionné par le MLOps, la data science, les systèmes ERP et la business intelligence.
+Étudiant en **Master Informatique de Gestion** (option Développement et Analyse de Données) à l'UCAO Dakar, avec une double compétence en **développement logiciel** et **analyse de données**.
+
+Passionné par les projets data-driven, je maîtrise l'ensemble du cycle ML : collecte, nettoyage, modélisation, déploiement et monitoring. Également spécialisé en développement fullstack (Django, FastAPI, React) et en Business Intelligence.
 
 Expérience pratique sur des projets réels : pipeline MLOps complet, ERP Django, système d'approvisionnement, dashboard Power BI PMO, et déploiement Odoo chez des clients.
 
 ---
 
-## 🚀 Projets phares
+## Projets phares
 
-### 🏦 Score Crédit MLOps
+### Score Crédit MLOps
 > Pipeline MLOps complet de scoring crédit — Master 2 UCAO
 
 [![Repo](https://img.shields.io/badge/GitHub-score--credit--mlops-181717?style=flat&logo=github)](https://github.com/jean-jacques-komhidi/score-credit-mlops)
@@ -38,18 +40,18 @@ Expérience pratique sur des projets réels : pipeline MLOps complet, ERP Django
 Système complet de prédiction du risque de défaut de paiement sur le dataset Home Credit Default Risk (307 000 clients, 178 features).
 
 **Fonctionnalités :**
-- 🤖 Modèle XGBoost (AUC-ROC : 0.7294) entraîné avec SMOTE
-- 🔍 Explicabilité SHAP avec visualisation animée des facteurs de décision
-- 📊 Dashboard interactif avec graphiques Chart.js et animations
-- 📈 Monitoring du Data Drift avec Evidently
-- 🔄 Pipeline CI/CD GitHub Actions
-- 🗃️ Tracking des expériences MLFlow + PostgreSQL
+- Modèle XGBoost (AUC-ROC : 0.7294) entraîné avec SMOTE
+- Explicabilité SHAP avec visualisation animée des facteurs de décision
+- Dashboard interactif avec graphiques Chart.js et animations
+- Monitoring du Data Drift avec Evidently
+- Pipeline CI/CD GitHub Actions
+- Tracking des expériences MLFlow + PostgreSQL
 
 **Stack :** Python · FastAPI · XGBoost · SHAP · Evidently · MLFlow · React · Tailwind · PostgreSQL
 
 ---
 
-### 🏢 ERP MEA — Système de Gestion d'Entreprise
+### ERP MEA — Système de Gestion d'Entreprise
 > ERP complet pour la région Middle East & Africa — Django + Jinja2
 
 [![Repo](https://img.shields.io/badge/GitHub-erp--mea-181717?style=flat&logo=github)](https://github.com/jean-jacques-komhidi/erp-mea)
@@ -61,17 +63,17 @@ Système complet de prédiction du risque de défaut de paiement sur le dataset 
 Application ERP complète développée en Django avec tous les modules métier en français.
 
 **Modules :**
-- 📦 Gestion des stocks multi-entrepôts (entrées/sorties, alertes rupture)
-- 🛒 Ventes : workflow complet Brouillon → Confirmé → Expédié → Facturé
-- 🏪 Achats : commandes fournisseurs, réception marchandises
-- 👥 Base clients/fournisseurs avec calcul automatique TVA
-- 📊 Interface moderne avec barre latérale fixe et cartes statistiques
+- Gestion des stocks multi-entrepôts (entrées/sorties, alertes rupture)
+- Ventes : workflow complet Brouillon → Confirmé → Expédié → Facturé
+- Achats : commandes fournisseurs, réception marchandises
+- Base clients/fournisseurs avec calcul automatique TVA
+- Interface moderne avec barre latérale fixe et cartes statistiques
 
 **Stack :** Python · Django 5.0 · Jinja2 · SQLite · Docker · CSS3
 
 ---
 
-### 🎓 UCAO Approvisionnements
+### UCAO Approvisionnements
 > Système de gestion des approvisionnements — UCAO-ISG-CSM
 
 [![Repo](https://img.shields.io/badge/GitHub-ucao--approvisionnements-181717?style=flat&logo=github)](https://github.com/jean-jacques-komhidi/ucao-approvisionnements)
@@ -81,18 +83,18 @@ Application ERP complète développée en Django avec tous les modules métier e
 Application web complète de gestion du cycle d'approvisionnement à l'UCAO, de la demande (FEB) au paiement, développée en projet tutoré Master 1.
 
 **Fonctionnalités :**
-- 🔐 8 rôles utilisateurs + authentification sécurisée (blocage 5 tentatives)
-- 📄 Workflow FEB complet : DRAFT → EN_INSTANCE → VALIDÉE/CLÔTURÉE/REJETÉE
-- 📋 Bon de commande automatique si montant > 50 000 F CFA + génération PDF
-- 💰 Circuit de paiement DFC → DG → Comptable avec acomptes partiels
-- 🔔 Notifications in-app + emails HTML Gmail
-- 📊 Dashboard analytics avec 4 graphiques Chart.js + alertes intelligentes
+- 8 rôles utilisateurs + authentification sécurisée (blocage 5 tentatives)
+- Workflow FEB complet : DRAFT → EN_INSTANCE → VALIDÉE/CLÔTURÉE/REJETÉE
+- Bon de commande automatique si montant > 50 000 F CFA + génération PDF
+- Circuit de paiement DFC → DG → Comptable avec acomptes partiels
+- Notifications in-app + emails HTML Gmail
+- Dashboard analytics avec 4 graphiques Chart.js + alertes intelligentes
 
 **Stack :** Python · Django 4.2 · PostgreSQL · Jinja2 · WeasyPrint · Chart.js · SMTP Gmail
 
 ---
 
-### 📊 Dashboard PMO — Pilotage des Projets IT & Marketing
+### Dashboard PMO — Pilotage des Projets IT & Marketing
 > Tableau de bord Power BI interactif — 247 projets sur 4 régions
 
 [![Repo](https://img.shields.io/badge/GitHub-Projet__Dashboard__PMO-181717?style=flat&logo=github)](https://github.com/jean-jacques-komhidi/Projet_Dashboard_PMO)
@@ -103,17 +105,17 @@ Application web complète de gestion du cycle d'approvisionnement à l'UCAO, de 
 Tableau de bord décisionnel Power BI pour le Project Management Office d'une entreprise internationale, permettant le suivi de 247 projets IT et Marketing à travers 4 régions géographiques.
 
 **Fonctionnalités :**
-- 🗺️ Carte géographique interactive (Azure Maps) avec code couleur alerte
-- 🚨 Détection automatique des projets en alerte (écart ≥ 15% sur coûts/délais/livrables)
-- 📈 4 pages interactives : Vue d'ensemble, Analyse détaillée, Suivi temporel, Documentation
-- 📅 Diagramme de Gantt + graphique en cascade (Waterfall) des dépassements
-- 🎛️ Filtres contextuels par région, pays, type de projet, période
+- Carte géographique interactive (Azure Maps) avec code couleur alerte
+- Détection automatique des projets en alerte (écart ≥ 15% sur coûts/délais/livrables)
+- 4 pages interactives : Vue d'ensemble, Analyse détaillée, Suivi temporel, Documentation
+- Diagramme de Gantt + graphique en cascade (Waterfall) des dépassements
+- Filtres contextuels par région, pays, type de projet, période
 
 **Stack :** Power BI Desktop · DAX · Power Query (M) · Azure Maps · Gantt Chart
 
 ---
 
-## 🛠️ Compétences techniques
+## Compétences techniques
 
 ### Data & ML
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -143,7 +145,7 @@ Tableau de bord décisionnel Power BI pour le Project Management Office d'une en
 
 ---
 
-## 🎓 Formation
+## Formation
 
 | Diplôme | Institution | Année |
 |---------|-------------|-------|
@@ -154,14 +156,14 @@ Tableau de bord décisionnel Power BI pour le Project Management Office d'une en
 
 ---
 
-## 📜 Certifications
+## Certifications
 
-- 🏅 **Certification Scrum** — Méthodologie Agile (2025)
-- 🗺️ **Attestation SIG** — Systèmes d'Information Géographiques (2023)
+- **Certification Scrum** — Méthodologie Agile (2025)
+- **Attestation SIG** — Systèmes d'Information Géographiques (2023)
 
 ---
 
-## 📊 Statistiques GitHub
+## Statistiques GitHub
 
 <div align="center">
 
@@ -173,16 +175,16 @@ Tableau de bord décisionnel Power BI pour le Project Management Office d'une en
 
 ---
 
-## 🌍 Langues
+## Langues
 
 | Langue | Niveau |
 |--------|--------|
-| 🇫🇷 Français | Langue maternelle |
-| 🇬🇧 Anglais | Intermédiaire (lu, écrit, parlé) |
+| Français | Langue maternelle |
+| Anglais | Intermédiaire (lu, écrit, parlé) |
 
 ---
 
-## 📬 Me contacter
+## Me contacter
 
 <div align="center">
 
@@ -198,6 +200,6 @@ Tableau de bord décisionnel Power BI pour le Project Management Office d'une en
 
 <div align="center">
 
-*"Programmation it's life"* 🚀
+*"Programmation it's life"*
 
 </div>
