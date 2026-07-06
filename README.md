@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Email-jkomhidi2002@gmail.com-EA4335?style=flat&logo=gmail)](mailto:jkomhidi2002@gmail.com)
 [![Location](https://img.shields.io/badge/Localisation-Dakar%2C%20Sénégal-00B96B?style=flat&logo=googlemaps)](https://maps.google.com/?q=Dakar,Senegal)
 
-*"Programmation it's life"*
+*"Data Analyst | Data Engineer |Développeur Python|Django & Flask, PHP, JAVA en Master 2 MIAGE parcours Data & Business Intelligence à la recherche d’opportunité"*
 
 </div>
 
