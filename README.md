@@ -21,11 +21,41 @@
 
 Passionné par les projets data-driven, je maîtrise l'ensemble du cycle ML : collecte, nettoyage, modélisation, déploiement et monitoring. Également spécialisé en développement fullstack (Django, FastAPI, React) et en Business Intelligence.
 
-Expérience pratique sur des projets réels : pipeline MLOps complet, ERP Django, système d'approvisionnement, dashboard Power BI PMO, et déploiement Odoo chez des clients.
+Mon projet de mémoire, **CREDISCORE-BSIC**, applique le Machine Learning au scoring crédit dans le secteur bancaire tchadien (cas de la BSIC Tchad) : une plateforme MLOps de bout en bout avec explicabilité SHAP, assistant IA (LLM + RAG), détection de dérive et réentraînement automatique.
+
+Expérience pratique sur des projets réels : plateformes MLOps de scoring crédit, ERP Django, système d'approvisionnement, dashboard Power BI PMO, et déploiement Odoo chez des clients.
 
 ---
 
 ## Projets phares
+
+### CREDISCORE-BSIC — Scoring crédit MLOps (Mémoire de Master)
+> Plateforme MLOps de bout en bout pour prédire le risque de défaut de paiement — cas de la BSIC Tchad
+
+[![Repo](https://img.shields.io/badge/GitHub-Projet__BSIC-181717?style=flat&logo=github)](https://github.com/jean-jacques-komhidi/Projet_BSIC)
+[![CI/CD](https://github.com/jean-jacques-komhidi/Projet_BSIC/actions/workflows/ci.yml/badge.svg)](https://github.com/jean-jacques-komhidi/Projet_BSIC/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?style=flat&logo=react)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow)
+![Groq](https://img.shields.io/badge/LLM-Groq%20%2B%20LangChain-F55036?style=flat)
+
+Plateforme de scoring crédit couvrant tout le cycle de vie ML : données → entraînement → API → interface → monitoring → réentraînement. Entraînée sur Home Credit Default Risk (307 511 dossiers), avec 18 variables alignées sur la fiche de prêt réelle de la BSIC.
+
+**Fonctionnalités :**
+- 3 modèles comparés à chaque cycle — **Gradient Boosting retenu (AUC-ROC 0,753)**
+- Score métier `Coût = 5×FN + 1×FP` et seuil de décision optimisé à 0,70
+- Explicabilité SHAP + explication en langage naturel (exigences COBAC)
+- **CrediBot** : assistant IA (Groq + LangChain) avec mémoire conversationnelle et RAG sur les dossiers
+- Détection du data drift (z-score + PSI) avec alertes et notifications
+- Réentraînement asynchrone multi-modèles, versioning MLflow, boucle MLOps (issue réelle du crédit réinjectée)
+- Interface React complète : 11 pages, rôles JWT, fiches PDF, thème clair/sombre, responsive
+- Pipeline CI/CD GitHub Actions avec tests automatiques
+
+**Stack :** Python · FastAPI · LightGBM · scikit-learn · SHAP · MLflow · PostgreSQL · Groq · LangChain · ReportLab · React · Vite · Tailwind · Chart.js · GitHub Actions
+
+---
 
 ### Score Crédit MLOps
 > Pipeline MLOps complet de scoring crédit — Master 2 UCAO
@@ -122,6 +152,9 @@ Tableau de bord décisionnel Power BI pour le Project Management Office d'une en
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat)
+![SHAP](https://img.shields.io/badge/SHAP-Explicabilité-8A2BE2?style=flat)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain)
 ![MLFlow](https://img.shields.io/badge/MLFlow-0194E2?style=flat&logo=mlflow)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi)
 
@@ -129,6 +162,7 @@ Tableau de bord décisionnel Power BI pour le Project Management Office d'une en
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php)
 ![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat&logo=html5)
 
