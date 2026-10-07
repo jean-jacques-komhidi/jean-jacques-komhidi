@@ -93,6 +93,9 @@ header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1
 .menu-open .menu-btn span::before{top:0;transform:rotate(45deg)}
 .menu-open .menu-btn span::after{top:0;transform:rotate(-45deg)}
 .head-right{display:flex;align-items:center;gap:10px}
+.brand,.nav-cta,.pill-nav a{white-space:nowrap}
+@media (max-width:1320px){.pill-nav a{padding:10px 12px;font-size:14.5px}.nav-cta{padding:0 7px 0 16px}}
+@media (max-width:1180px) and (min-width:1025px){.nav-cta span.t{display:none}.nav-cta{padding:0 7px}}
 .pill-nav .nav-contact{display:none}
 .nav-cta{height:50px;padding:0 7px 0 22px;font-size:15px}
 .nav-cta .dot{width:36px;height:36px}
@@ -109,7 +112,7 @@ header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1
 .avail{display:inline-flex;align-items:center;gap:10px;font:500 13px/1 var(--mono);color:var(--muted);margin-bottom:28px}
 .avail i{width:8px;height:8px;border-radius:50%;background:var(--signal);box-shadow:0 0 0 4px rgba(22,182,127,.18)}
 
-.portrait{position:relative;max-width:440px;justify-self:end;width:100%}
+.portrait{position:relative;max-width:440px;justify-self:end;width:100%;margin-bottom:56px}
 .portrait-frame{
   aspect-ratio:4/5;border-radius:28px;overflow:hidden;
   background:linear-gradient(160deg,#EE6236 0%,#B9361A 100%);
@@ -121,7 +124,7 @@ header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1
 .tag-a{top:28px;left:-34px;background:var(--ink);color:#fff;transform:rotate(-5deg)}
 .tag-b{top:44%;right:-22px;background:var(--cobalt-soft);color:var(--cobalt);transform:rotate(6deg)}
 .scorecard{
-  position:absolute;left:-48px;bottom:28px;width:250px;background:#fff;border-radius:18px;padding:18px 20px;
+  position:absolute;left:-56px;bottom:-56px;width:250px;background:#fff;border-radius:18px;padding:18px 20px;
   box-shadow:0 24px 48px -20px rgba(20,18,16,.35);
 }
 .scorecard .row{display:flex;justify-content:space-between;align-items:baseline}
@@ -437,7 +440,7 @@ section{padding:128px 0}
   .bio-tag-b{left:-6px}
   .badge{right:0;bottom:-24px;width:104px;height:104px}
   .tag-b{right:-6px}
-  .scorecard{left:-6px;width:220px;bottom:16px}
+  .scorecard{left:-6px;width:220px;bottom:-48px}
   .thesis{padding-bottom:88px}
   .thesis-card{padding:36px 24px;border-radius:28px}
   .thesis-stats{gap:28px}
@@ -469,7 +472,7 @@ section{padding:128px 0}
     </a>
     <nav class="pill-nav" id="mainNav" aria-label="Sections">
       <a data-i18n="t0" href="#bio">Bio</a>
-      <a data-i18n="t1" href="#expertise">Expertise</a>
+      <a data-i18n="t1" href="#expertise">Compétences</a>
       <a data-i18n="t2" href="#memoire">Mémoire <span class="badge-nav">BSIC</span></a>
       <a data-i18n="t3" href="#realisations">Réalisations</a>
       <a data-i18n="t4" href="#experiences">Expériences</a>
